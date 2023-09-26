@@ -53,10 +53,11 @@ PR 제목
 > - [카카오 Lv2 기출 문제](https://school.programmers.co.kr/learn/challenges?order=recent&levels=2&partIds=37527%2C31236%2C25448%2C20069%2C17214%2C12286%2C9317%2C22586%2C18498%2C17931&page=1)
 > - [삼성 SW 역량 테스트 기출 문제](https://www.acmicpc.net/workbook/view/1152)
 
-|            일정            | 기출 유형 |                                                                                                                                                                               문제                                                                                                                                                                               |
-| :------------------------: | :-------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 1주차 <br> (09.11 ~ 09.17) |  카카오   | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) <br> [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) <br> [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) <br> [순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412) |
-| 2주차 <br> (09.18 ~ 09.24) |  카카오   |       [메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411) <br> [[카카오 인턴] 수식 최대화](https://school.programmers.co.kr/learn/courses/30/lessons/67257) <br> [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065) <br> [괄호 변환](https://school.programmers.co.kr/learn/courses/30/lessons/60058) <br>       |
+|            일정            |       기출 유형        |                                                                                                                                                                               문제                                                                                                                                                                               |
+| :------------------------: | :--------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| 1주차 <br> (09.11 ~ 09.17) |         카카오         | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) <br> [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) <br> [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) <br> [순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412) |
+| 2주차 <br> (09.18 ~ 09.24) |         카카오         |       [메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411) <br> [[카카오 인턴] 수식 최대화](https://school.programmers.co.kr/learn/courses/30/lessons/67257) <br> [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065) <br> [괄호 변환](https://school.programmers.co.kr/learn/courses/30/lessons/60058) <br>       |
+| 3주차 <br> (09.25 ~ 10.01) | - <br> (백트래킹 연습) |               [N과M(1)](https://www.acmicpc.net/problem/15649) <br> [N과M(2)](https://www.acmicpc.net/problem/15650) <br> [N과M(3)](https://www.acmicpc.net/problem/15651) <br> [N과M(4)](https://www.acmicpc.net/problem/15652) <br> [N과M(5)](https://www.acmicpc.net/problem/15654) <br> [N과M(6)](https://www.acmicpc.net/problem/15655) <br>                |
 
 <br>
 
@@ -65,6 +66,7 @@ PR 제목
 | 일정  | 동현 | 근우 | 훈희 | 기현 | 우석 | 유림 |
 | :---: | :--: | :--: | :--: | :--: | :--: | :--: |
 | 1주차 |      |  ✅  |  ✅  |      |      |  ✅  |
-| 2주차 |      |      |      |      |      |      |
+| 2주차 |      |  ✅  |  ✅  |      |      |      |
+| 3주차 |      |      |      |      |      |      |
 
 <br>
