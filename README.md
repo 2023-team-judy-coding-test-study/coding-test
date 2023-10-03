@@ -58,6 +58,8 @@ PR 제목
 | 1주차 <br> (09.11 ~ 09.17) |         카카오         | [주차 요금 계산](https://school.programmers.co.kr/learn/courses/30/lessons/92341) <br> [k진수에서 소수 개수 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/92335) <br> [거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302) <br> [순위 검색](https://school.programmers.co.kr/learn/courses/30/lessons/72412) |
 | 2주차 <br> (09.18 ~ 09.24) |         카카오         |       [메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411) <br> [[카카오 인턴] 수식 최대화](https://school.programmers.co.kr/learn/courses/30/lessons/67257) <br> [튜플](https://school.programmers.co.kr/learn/courses/30/lessons/64065) <br> [괄호 변환](https://school.programmers.co.kr/learn/courses/30/lessons/60058) <br>       |
 | 3주차 <br> (09.25 ~ 10.01) | - <br> (백트래킹 연습) |               [N과M(1)](https://www.acmicpc.net/problem/15649) <br> [N과M(2)](https://www.acmicpc.net/problem/15650) <br> [N과M(3)](https://www.acmicpc.net/problem/15651) <br> [N과M(4)](https://www.acmicpc.net/problem/15652) <br> [N과M(5)](https://www.acmicpc.net/problem/15654) <br> [N과M(6)](https://www.acmicpc.net/problem/15655) <br>                |
+| 4주차 <br> (10.02 ~ 10.08) |         카카오         |                [괄호 변환](https://school.programmers.co.kr/learn/courses/30/lessons/60058) <br> [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/42890) <br> [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) <br> [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888)                |
+| 5주차 <br> (10.09 ~ 10.15) |         카카오         |              [n진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687) <br> [파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686) <br> [[3차] 압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684) <br> [방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683)               |
 
 <br>
 
@@ -67,6 +69,6 @@ PR 제목
 | :---: | :--: | :--: | :--: | :--: | :--: | :--: |
 | 1주차 |      |  ✅  |  ✅  |      |      |  ✅  |
 | 2주차 |      |  ✅  |  ✅  |      |      |      |
-| 3주차 |      |      |      |      |      |      |
+| 3주차 |      |  ✅  |  ✅  |      |      |  ✅  |
 
 <br>
