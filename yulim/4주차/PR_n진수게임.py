@@ -3,7 +3,7 @@ def solution(n, t, m, p):
     data = "-0"  # 0일때
     nums = "0123456789ABCDEF"
 
-    for i in range(t * m):
+    for i in range(t * m):  # 구할 수 * 게임 참가 인원 = 최대로 필요한 수의 갯수
         tmp = ""
         s = i
 
