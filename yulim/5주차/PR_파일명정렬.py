@@ -1,3 +1,4 @@
+"""
 def solution(files):
     answer = []
     datas = []
@@ -22,6 +23,19 @@ def solution(files):
     datas = sorted(datas, key=lambda x: (x[0].lower(), int(x[1])))
     answer = ["".join(x) for x in datas]
     return answer
+"""
+##############
+# 다른 사람 풀이 - 정규표현식 이용
+# 파이썬이 stable sort를 지원해줘서 고려하지 않아도 됨
+import re
+
+
+def solution(files):
+    temp = [re.split(r"([0-9]+)", s) for s in files]
+
+    sort = sorted(temp, key=lambda x: (x[0].lower(), int(x[1])))
+
+    return ["".join(s) for s in sort]
 
 
 print(
