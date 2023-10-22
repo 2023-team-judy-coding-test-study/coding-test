@@ -61,6 +61,7 @@ PR 제목
 | 4주차 <br> (10.02 ~ 10.08) |         카카오         |                                          [문자열 압축](https://school.programmers.co.kr/learn/courses/30/lessons/60057) <br> [후보키](https://school.programmers.co.kr/learn/courses/30/lessons/42890) <br> [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888) <br> [n진수 게임](https://school.programmers.co.kr/learn/courses/30/lessons/17687) <br>                                           |
 | 5주차 <br> (10.09 ~ 10.15) |         카카오         |                                               [파일명 정렬](https://school.programmers.co.kr/learn/courses/30/lessons/17686) <br> [[3차] 압축](https://school.programmers.co.kr/learn/courses/30/lessons/17684) <br> [방금그곡](https://school.programmers.co.kr/learn/courses/30/lessons/17683) <br> [캐시](https://school.programmers.co.kr/learn/courses/30/lessons/17680)                                               |
 | 6주차 <br> (10.16 ~ 10.22) | 카카오, 백준(BFS 연습) | [프렌즈4블록](https://school.programmers.co.kr/learn/courses/30/lessons/17679) <br> [[1차] 뉴스클러스터링](https://school.programmers.co.kr/learn/courses/30/lessons/17677) <br> [택배 배달과 수거하기](https://school.programmers.co.kr/learn/courses/30/lessons/150369) <br> [이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368) <br> [미로 탐색](https://www.acmicpc.net/problem/2178) |
+| 7주차 <br> (10.23 ~ 10.29) | 카카오, 백준(BFS 연습) |                                                                                           [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) <br> [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) <br> [단지 번호 붙이기](https://www.acmicpc.net/problem/2667)                                                                                           |
 
 <br>
 
@@ -73,5 +74,6 @@ PR 제목
 | 3주차 |      |  ✅  |  ✅  |      |      |  ✅  |
 | 4주차 |      |  ✅  |  ✅  |      |      |      |
 | 5주차 |      |  ✅  |  ✅  |      |      |      |
+| 6주차 |      |  ✅  |  ✅  |      |      |      |
 
 <br>
