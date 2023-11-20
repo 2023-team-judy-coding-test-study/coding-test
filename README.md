@@ -64,20 +64,22 @@ PR 제목
 | 7주차 <br> (10.23 ~ 10.29)  | 카카오, 백준(BFS 연습) |                                                                                           [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667) <br> [양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342) <br> [단지 번호 붙이기](https://www.acmicpc.net/problem/2667)                                                                                           |
 | 9주차 <br> (11.06 ~ 11.12)  |          백준          |                                                                                                                                                               [연구소](https://www.acmicpc.net/problem/14502) <br> [뱀](https://www.acmicpc.net/problem/3190)                                                                                                                                                               |
 | 10주차 <br> (11.03 ~ 11.19) |          백준          |                                                                                                                                                      [로봇청소기](https://www.acmicpc.net/problem/14503) <br> [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)                                                                                                                                                      |
+| 11주차 <br> (11.20 ~ 11.26) |          백준          |                                                                                                                                                           [경사로](https://www.acmicpc.net/problem/14890) <br> [톱니바퀴](https://www.acmicpc.net/problem/14891)                                                                                                                                                            |
 
 <br>
 
 ## 📆 스터디 참여 현황
 
-| 일정  | 동현 | 근우 | 훈희 | 우석 | 유림 |
-| :---: | :--: | :--: | :--: | :--: | :--: |
-| 1주차 |      |  ✅  |  ✅  |      |  ✅  |
-| 2주차 |      |  ✅  |  ✅  |      |      |
-| 3주차 |      |  ✅  |  ✅  |      |  ✅  |
-| 4주차 |      |  ✅  |  ✅  |      |      |
-| 5주차 |      |  ✅  |  ✅  |      |      |
-| 6주차 |      |  ✅  |  ✅  |      |      |
-| 7주차 |      |  ✅  |  ✅  |      |  ✅  |
-| 9주차 |      |  ✅  |      |      |      |
+|  일정  | 동현 | 근우 | 훈희 | 우석 | 유림 |
+| :----: | :--: | :--: | :--: | :--: | :--: |
+| 1주차  |      |  ✅  |  ✅  |      |  ✅  |
+| 2주차  |      |  ✅  |  ✅  |      |      |
+| 3주차  |      |  ✅  |  ✅  |      |  ✅  |
+| 4주차  |      |  ✅  |  ✅  |      |      |
+| 5주차  |      |  ✅  |  ✅  |      |      |
+| 6주차  |      |  ✅  |  ✅  |      |      |
+| 7주차  |      |  ✅  |  ✅  |      |  ✅  |
+| 9주차  |      |  ✅  |  ✅  |      |      |
+| 10주차 |      |  ✅  |  ✅  |      |      |
 
 <br>
