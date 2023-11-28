@@ -65,6 +65,7 @@ PR 제목
 | 9주차 <br> (11.06 ~ 11.12)  |          백준          |                                                                                                                                                               [연구소](https://www.acmicpc.net/problem/14502) <br> [뱀](https://www.acmicpc.net/problem/3190)                                                                                                                                                               |
 | 10주차 <br> (11.03 ~ 11.19) |          백준          |                                                                                                                                                      [로봇청소기](https://www.acmicpc.net/problem/14503) <br> [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)                                                                                                                                                      |
 | 11주차 <br> (11.20 ~ 11.26) |          백준          |                                                                                                                                                           [경사로](https://www.acmicpc.net/problem/14890) <br> [톱니바퀴](https://www.acmicpc.net/problem/14891)                                                                                                                                                            |
+| 12주차 <br> (11.27 ~ 12.01) |          백준          |                                                                                                                                                           [감시](https://www.acmicpc.net/problem/15683) <br> [드래곤 커브](https://www.acmicpc.net/problem/15685)                                                                                                                                                           |
 
 <br>
 
@@ -81,5 +82,6 @@ PR 제목
 | 7주차  |      |  ✅  |  ✅  |      |  ✅  |
 | 9주차  |      |  ✅  |  ✅  |      |      |
 | 10주차 |      |  ✅  |  ✅  |      |      |
+| 11주차 |      |  ✅  |      |      |      |
 
 <br>
