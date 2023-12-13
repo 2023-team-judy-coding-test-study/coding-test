@@ -5,7 +5,7 @@ def dfs(tmp, depth, cur):
         return
     
     for i in range(cur, len(order)):
-        tmp += order[i]
+        tmp[depth] = order[i]
         dfs(tmp, depth+1, i+1)
     
 
@@ -17,7 +17,8 @@ def solution(orders, course):
     menu = {}
     for order in orders:
         for length in course:
-            dfs('', 0, 0)
+            tmp = [0] * length # node
+            dfs(tmp, 0, 0)
 
     result = [0]*(max(course)+1)
 
@@ -26,7 +27,6 @@ def solution(orders, course):
             if v >= 2 and v >= result[len(k)]:
                 result[len(k)] = v
     
-
     for length in course:
         for k, v in menu.items():
             if len(k) == length and v == result[length]:
