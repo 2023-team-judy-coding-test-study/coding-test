@@ -11,11 +11,10 @@ def dfs(menu, tmp, order, length, depth, cur):
 
 def solution(orders, course):
     answer = []
-    menu = {}
-
+    menu = {} #카운팅 할 딕셔너리 - k,v
     for order in orders:
         for length in course:
-            tmp = [0] * length
+            tmp = [0] * length # node
             dfs(menu, tmp, order, length, 0, 0)
 
     result = [0]*(max(course)+1)
