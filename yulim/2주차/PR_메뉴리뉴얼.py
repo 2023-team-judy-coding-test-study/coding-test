@@ -1,21 +1,23 @@
-def dfs(menu, tmp, order, length, depth, cur): 
+def dfs(tmp, depth, cur): 
     if depth == length:
         tmp = ''.join(sorted(tmp))
         menu[tmp] = menu.get(tmp, 0) + 1
         return
     
     for i in range(cur, len(order)):
-        tmp[depth] = order[i]
-        dfs(menu, tmp, order, length, depth+1, i+1)
+        tmp += order[i]
+        dfs(tmp, depth+1, i+1)
     
 
 def solution(orders, course):
+    global menu #카운팅 할 딕셔너리 - k,v
+    global order
+    global length
     answer = []
-    menu = {} #카운팅 할 딕셔너리 - k,v
+    menu = {}
     for order in orders:
         for length in course:
-            tmp = [0] * length # node
-            dfs(menu, tmp, order, length, 0, 0)
+            dfs('', 0, 0)
 
     result = [0]*(max(course)+1)
 
@@ -31,7 +33,6 @@ def solution(orders, course):
                 answer.append(k)
 
     return sorted(answer)
-
 
 print(solution(["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"],[2,3,4]))
 print(solution(["ABCDE", "AB", "CD", "ADE", "XYZ", "XYZ", "ACD"],[2,3,5]))
