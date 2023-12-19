@@ -53,4 +53,4 @@ def solution(n, info):
     return answer
 
 
-# https://velog.io/@syong_e/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8CDFS-%ED%8C%8C%EC%9D%B4%EC%8D%AC
+# 출처: https://velog.io/@syong_e/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8CDFS-%ED%8C%8C%EC%9D%B4%EC%8D%AC
