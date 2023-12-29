@@ -1,5 +1,5 @@
-print(int ( -1 / 3))
-print(-1 // 3)
+# print(int ( -1 / 3))    # 0
+# print(-1 // 3)          # -1
 
 N = int(input())
 nums = [ int(x) for x in input().split() ]
