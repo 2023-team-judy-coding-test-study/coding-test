@@ -1,4 +1,4 @@
-# 6:35
+# 6:35 ~ 7:56 (1시간 21분)
 # s = 1, n = 0
 
 
@@ -36,23 +36,8 @@ def solution(n, d):
             continue
         break
 
-    print(rs) ####
-
     for x, y in rs:
         rotation(x, y)
-
-    for i in range(4): ####
-        print(gears[i])
-    
-    # for i in range(n, 0, -1):
-    #     if gears[i][6] != gears[i-1][2]:
-    #         rotation(i-1, rdir)
-    #         rdir = -rdir
-
-    # for i in range(n, 3):
-    #     if gears[i][2] != gears[i+1][6]:
-    #         rotation(i+1, rdir)
-    #         rdir = -rdir
 
 
 
