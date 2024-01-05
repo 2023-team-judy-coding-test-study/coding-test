@@ -19,9 +19,7 @@ def findFishes(shark_size):
     return fishes, x, y
 
 
-def bfs(now_x, now_y, pos_x, pos_y):
-    global N
-    global shark_size
+def bfs(now_x, now_y, pos_x, pos_y, N, shark_size):
     queue = deque()
     queue.append((now_x, now_y, 0))
 
@@ -68,7 +66,7 @@ while True:
         fish_x, fish_y = -1, -1          
 
         for i, j in fishes: 
-            tmp_distance = bfs(shark_x, shark_y, i, j)
+            tmp_distance = bfs(shark_x, shark_y, i, j, N, shark_size)
 
             if tmp_distance < distance:
                 fish_x = i
