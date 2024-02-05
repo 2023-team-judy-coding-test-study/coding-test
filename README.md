@@ -69,8 +69,10 @@ PR 제목
 | 13주차 <br> (12.04 ~ 12.10) |          백준          |                                                                                                                                                          [치킨배달](https://www.acmicpc.net/problem/15686) <br> [아기상어](https://www.acmicpc.net/problem/16236)                                                                                                                                                           |
 | 14주차 <br> (12.11 ~ 12.17) |          백준          |                                                                                                                                                  [미세먼지 안녕!](https://www.acmicpc.net/problem/17144) <br> [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)                                                                                                                                                   |
 | 15주차 <br> (12.18 ~ 12.24) |          백준          |                                                                                                                                                       [게리맨더링 2](https://www.acmicpc.net/problem/17779) <br> [청소년 상어](https://www.acmicpc.net/problem/19236)                                                                                                                                                       |
-| 16주차 <br> (01.15 ~ 12.21) |          백준          |                                                                                                                                            [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) <br> [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)                                                                                                                                            |
-| 16주차 <br> (01.15 ~ 12.21) |          백준          |                                                                                                                                                [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) <br> [주사위 굴리기2](https://www.acmicpc.net/problem/23288)                                                                                                                                                 |
+| 16주차 <br> (01.15 ~ 01.21) |          백준          |                                                                                                                                            [컨베이어 벨트 위의 로봇](https://www.acmicpc.net/problem/20055) <br> [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057)                                                                                                                                            |
+| 17주차 <br> (01.22 ~ 01.28) |          백준          |                                                                                                                                                [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) <br> [주사위 굴리기2](https://www.acmicpc.net/problem/23288)                                                                                                                                                 |
+| 18주차 <br> (01.29 ~ 02.04) |          백준          |                                                                                                                                                                                                          자유 주제                                                                                                                                                                                                          |
+| 19주차 <br> (02.05 ~ 02.11) |          백준          |                                                                                                                                                        [인구 이동](https://www.acmicpc.net/problem/16234) <br> [새로운 게임2](https://www.acmicpc.net/problem/17837)                                                                                                                                                        |
 
 <br>
 
@@ -91,7 +93,9 @@ PR 제목
 | 12주차 |  ✅  |  ✅  |      |  ✅  |
 | 13주차 |  ✅  |  ✅  |      |  ✅  |
 | 14주차 |  ✅  |  ✅  |      |  ✅  |
-| 15주차 |  ✅  |      |      |  ✅  |
+| 15주차 |  ✅  |  ✅  |      |  ✅  |
 | 16주차 |  ✅  |      |      |      |
+| 17주차 |  ✅  |      |      |      |
+| 18주차 |  ✅  |      |      |      |
 
 <br>
