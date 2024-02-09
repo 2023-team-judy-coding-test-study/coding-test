@@ -9,8 +9,6 @@ tmp = list(map(int, input().split()))
 belts = [[x for x in tmp[:N]], [x for x in tmp[-1:N-1:-1]]]
 dv = [(-1,0), (0,1), (1,0), (0,-1)]
 
-zero = tmp.count(0)
-
 def beltMove(belts,  N):
     queue = deque([(0, 0, belts[0][0])])
     belts[0][0] = belts[1][0]
