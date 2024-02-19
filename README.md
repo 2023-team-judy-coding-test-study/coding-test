@@ -74,6 +74,7 @@ PR 제목
 | 18주차 <br> (01.29 ~ 02.04) |          백준          |                                                                                                                                                                                                          자유 주제                                                                                                                                                                                                          |
 | 19주차 <br> (02.05 ~ 02.11) |          백준          |                                                                                                                                                        [인구 이동](https://www.acmicpc.net/problem/16234) <br> [새로운 게임2](https://www.acmicpc.net/problem/17837)                                                                                                                                                        |
 | 20주차 <br> (02.12 ~ 02.18) |          백준          |                                                                                                                                                          [큐빙](https://www.acmicpc.net/problem/5373) <br> [주사위 윷놀이](https://www.acmicpc.net/problem/17825)                                                                                                                                                           |
+| 21주차 <br> (02.19 ~ 02.27) |          백준          |                                                                                                                                                  [어른상어](https://www.acmicpc.net/problem/19237) <br> [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058)                                                                                                                                                   |
 
 <br>
 
@@ -99,5 +100,6 @@ PR 제목
 | 17주차 |  ✅  |      |      |
 | 18주차 |  ✅  |      |      |
 | 19주차 |  ✅  |      |      |
+| 20주차 |  ✅  |      |      |
 
 <br>
