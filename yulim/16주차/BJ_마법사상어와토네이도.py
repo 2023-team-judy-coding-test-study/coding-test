@@ -21,7 +21,7 @@ def bfs(x, y, d, N, board, visited):
         # 1. 시계 반대 방향으로 회전
         nd = (d + 3) % 4    
 
-        # 2. 회전 한 방향으로 전진
+        # 2. 회전한 방향으로 전진
         nx = x + dv[nd][0]
         ny = y + dv[nd][1]
 
@@ -29,7 +29,7 @@ def bfs(x, y, d, N, board, visited):
             visited[nx][ny] = 1
             queue.append((nx, ny, nd))
 
-        # 2-1. 회전 한 방향으로 전진할 수 없으면 기존 방향으로 전진
+        # 2-1. 회전한 방향으로 전진할 수 없으면 기존 방향으로 전진
         elif nx < 0 or nx >= N or ny < 0 or ny >= N or visited[nx][ny] == 1:
                 nx = x + dv[d][0]
                 ny = y + dv[d][1]
@@ -41,7 +41,7 @@ def bfs(x, y, d, N, board, visited):
                      continue
         
 
-        # if board[nx][ny] == 0: continue
+        if board[nx][ny] == 0: continue
 
         # 3. 흩날리는 모래 계산
         per = board[nx][ny] / 100
