@@ -46,11 +46,11 @@ class Node:
 m = 0
 s = 0
 n = 4
-fish_list: List[Node] = []
-shark: Node = Node(0, 0, 0, 0, 0)
+fish_list = []
+shark = [0, 0, 0, 0, 0]
 shark_route_list = []
 
-board: List[List[List[Node]]] = [[[] for _ in range(n)] for _ in range(n)]
+board: List[List[List[List[int]]]] = [[[] for _ in range(n)] for _ in range(n)]
 
 
 def init():
@@ -63,11 +63,11 @@ def init():
     for _ in range(m):
         y, x, d = map(int, input().split())
 
-        fish_list.append(Node(y - 1, x - 1, d - 1, 1, 0))
+        fish_list.append([y - 1, x - 1, d - 1, 1, 0])
 
     # 상어 초기화
     y, x = map(int, input().split())
-    shark = Node(y - 1, x - 1, 0, 0, 0)
+    shark = [y - 1, x - 1, 0, 0, 0]
     _set_shark_route_list(0, "", 3)
 
     # 격자 초기화
@@ -76,15 +76,15 @@ def init():
 
 def count_fish_smell():
     for fish in fish_list:
-        if fish.status == 2:
-            fish.cnt += 1
+        if fish[2] == 2:
+            fish[4] += 1
 
 
 def copy_fish():
-    fishes: List[Node] = []
+    fishes = []
 
     for fish in fish_list:
-        if fish.status == 1:
+        if fish[3] == 1: # status [y,x,d,stats,cnt]
             fishes.append(copy(fish))
 
     return fishes
@@ -100,23 +100,23 @@ def move_fishes():
 
     for idx, fish in enumerate(fish_list):
         # 이동 가능 유무 식별
-        if fish.status != 1:
+        if fish[3] != 1:
             continue
 
-        ny, nx, nd = fish.y, fish.x, fish.d
+        ny, nx, nd = fish[0], fish[1], fish[2]
         dir_cnt = 0
         for i in range(8 + 1):
             dir_cnt += 1
             can_move = True
 
-            nd = (fish.d - i) % 8
-            ny = fish.y + fdy[nd]
-            nx = fish.x + fdx[nd]
+            nd = (fish[2] - i) % 8
+            ny = fish[0] + fdy[nd]
+            nx = fish[1] + fdx[nd]
 
             if ny < 0 or nx < 0 or ny >= n or nx >= n:
                 continue
 
-            next_area: List[Node] = board[ny][nx]
+            next_area = board[ny][nx]
 
             # 이동 영역이 비어 있다면 이동 가능
             if not next_area:
@@ -124,7 +124,7 @@ def move_fishes():
 
             # 물고기 냄새나 상어가 있다면 이동 불가능
             for na_fish in next_area:
-                if na_fish.status == 0 or na_fish.status == 2:
+                if na_fish[3] == 0 or na_fish[3] == 2:
                     can_move = False
                     break
 
@@ -133,12 +133,12 @@ def move_fishes():
 
             break
 
-        if nd == fish.d and dir_cnt > 1:
+        if nd == fish[2] and dir_cnt > 1:
             continue
 
-        fish.y = ny
-        fish.x = nx
-        fish.d = nd
+        fish[0] = ny
+        fish[1] = nx
+        fish[2] = nd
 
     _set_board()
 
@@ -157,7 +157,7 @@ def move_shark():
     if not route:
         return
 
-    ny, nx = shark.y, shark.x
+    ny, nx = shark[0], shark[1]
 
     rm_set = set()
 
@@ -167,18 +167,18 @@ def move_shark():
 
         next_area = board[ny][nx]
         for na_fish in next_area:
-            if na_fish.status == 1:
-                rm_set.add((na_fish.y, na_fish.x))
+            if na_fish[3] == 1:
+                rm_set.add((na_fish[0], na_fish[1]))
 
     # 상위 위치 변경
-    shark.y = ny
-    shark.x = nx
+    shark[0] = ny
+    shark[1] = nx
 
     # 물고기 상태 변경
     for y, x in rm_set:
         for fish in fish_list:
-            if fish.y == y and fish.x == x and fish.status == 1:
-                fish.status = 2
+            if fish[0] == y and fish[1] == x and fish[3] == 1:
+                fish[3] = 2
 
     # 물고기 좌표 갱신
     _set_board()
@@ -194,7 +194,7 @@ def find_route():
         new_board = deepcopy(board)
 
         # 범위 유효성 검증
-        ny, nx, nd = shark.y, shark.x, shark.d
+        ny, nx, nd = shark[0], shark[1], shark[2]
         valid_route = True
         for direct in route:
             ny = ny + sdy[direct]
@@ -208,7 +208,7 @@ def find_route():
             continue
 
         # 연속 3칸 이동 시뮬레이션
-        ny, nx = shark.y, shark.x
+        ny, nx = shark[0], shark[1]
         rm_cnt = 0
 
         for direct in route:  # 3번 이동
@@ -221,7 +221,7 @@ def find_route():
                 continue
 
             for na_fish in next_area:
-                if na_fish.status == 1:  # 물고기
+                if na_fish[3] == 1:  # 물고기
                     rm_cnt += 1
 
             new_board[ny][nx] = []
@@ -248,7 +248,7 @@ def remove_fish_smell():
     new_fish_list = []
 
     for fish in fish_list:
-        if fish.cnt != 2:
+        if fish[4] != 2:
             new_fish_list.append(fish)
 
     fish_list = new_fish_list
@@ -259,9 +259,9 @@ def _set_board():
     new_board: List[List[List[Node]]] = [[[] for _ in range(4)] for _ in range(4)]
 
     for fish in fish_list:
-        new_board[fish.y][fish.x].append(fish)
+        new_board[fish[0]][fish[1]].append(fish)
 
-    new_board[shark.y][shark.x].append(shark)
+    new_board[shark[0]][shark[1]].append(shark)
 
     board = new_board
 
@@ -327,7 +327,7 @@ fish_cnt = 0
 for i in range(n):
     for j in range(n):
         for fish in board[i][j]:
-            if fish.status == 1:
+            if fish[3] == 1:
                 fish_cnt += 1
 
 print(fish_cnt)
